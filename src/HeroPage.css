@@ -2,7 +2,7 @@ html, body {
     margin: 0;
     height: 100%;
     width: 100%;
-    overflow: hidden;
+    overflow: auto;
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -26,7 +26,7 @@ p {
 
 a { 
     display: inline;
-    font-size: 20px;
+    font-size: 17px;
     color: inherit; 
     font-weight: 550;
     transition: color 0.3s;
@@ -37,13 +37,16 @@ a:hover {
 }
 
 .container {
-    min-height: 1200px;  
     max-width: 900px;    
-    padding: 150px;
+    padding: 50px;
     color: black;
     background-color: white;
     transition: background-color 0.3s, color 0.3s; 
-    min-height: 100%;
+    height: auto;
+
+    box-sizing: border-box; 
+    min-height: 90vh;
+    max-height: 100vh; 
 }
 
 .container.dark-mode {
@@ -67,8 +70,7 @@ a:hover {
 }
 
 .links_container {
-    margin-top: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .links_container a {
@@ -79,7 +81,6 @@ a:hover {
     width: 30px;
     font-size: 30px; 
     cursor: pointer;
-    margin-bottom: 20px;
     color: inherit; 
     transition: color 0.3s;
 }
@@ -100,9 +101,24 @@ a:hover {
     color: white;
 }
 
-@media (max-width: 400px){
-    html, body {
-        overflow: auto; 
-        height: auto;
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 24px; 
+    }
+
+    h2 {
+        font-size: 16px; 
+    }
+
+    p {
+        font-size: 14px; 
+    }
+
+    .links_container a {
+        font-size: 14px; 
     }
 }

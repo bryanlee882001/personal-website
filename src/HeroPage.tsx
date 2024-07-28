@@ -68,6 +68,8 @@ const HeroPage = () => {
          a Software Development Engineer Intern @ <a href="https://www.keysight.com/us/en/home.html" target="blank">Keysight Technologies</a> where
          I collaborated with interdiscplinary teams to drive impactful solutions and deliver results. 
         </p>
+
+        <br/><br/>
       </div>
     </div>
   );
