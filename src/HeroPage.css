@@ -1,0 +1,98 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden; 
+    display: flex;
+    justify-content: center; 
+    font-family: 'Courier Prime', monospace;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body {
+    background-color: white;
+    color: #0d1117;
+}
+
+body.dark-mode {
+    background-color: #0d1117;
+    color: #ddd;
+}
+
+p {
+    display: inline;
+}
+
+a { 
+    display: inline;
+    font-size: 20px;
+    color: inherit; 
+    font-weight: 550;
+    transition: color 0.3s;
+}
+
+a:hover {
+    font-weight: 900;
+}
+
+.container {
+    min-width: 400px;
+    max-width: 900px;    
+    padding: 150px;
+    color: black;
+    background-color: white;
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.container.dark-mode {
+    background-color: #0d1117;
+    color: #ddd;
+}
+
+.container.dark-mode a {
+    color: #77bdfb; 
+    font-weight: 550;
+}
+
+.container.dark-mode a:hover {
+    color: #bee1ff; 
+    font-weight: 900;
+}
+
+.title_container {
+    margin-bottom: -10px;
+}
+
+.links_container {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.links_container a {
+    margin-right: 20px;
+}
+
+.dark-mode-toggle {
+    width: 30px;
+    font-size: 30px; 
+    cursor: pointer;
+    margin-bottom: 20px;
+    color: inherit; 
+    transition: color 0.3s;
+}
+
+.container.dark-mode .dark-mode-toggle {
+    color: white; 
+}
+
+.dark-mode-toggle i {
+    transition: color 0.3s;
+}
+
+.dark-mode-toggle i.fa-moon {
+    color: #000; 
+}
+
+.container.dark-mode .dark-mode-toggle i.fa-sun {
+    color: white;
+}
