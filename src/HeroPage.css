@@ -2,7 +2,7 @@ html, body {
     margin: 0;
     height: 100%;
     width: 100%;
-    overflow: hidden; 
+    overflow: hidden;
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -37,7 +37,7 @@ a:hover {
 }
 
 .container {
-    max-height: 1200px;
+    min-height: 1200px;  
     max-width: 900px;    
     padding: 150px;
     color: black;
@@ -47,6 +47,7 @@ a:hover {
 }
 
 .container.dark-mode {
+    max-height: 100vh; 
     background-color: #0d1117;
     color: #ddd;
 }
@@ -99,7 +100,7 @@ a:hover {
     color: white;
 }
 
-@media (max-width: 400px), (max-height: 1200px) {
+@media (max-width: 400px){
     html, body {
         overflow: auto; 
         height: auto;
