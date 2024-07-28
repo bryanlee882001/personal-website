@@ -5,6 +5,7 @@ html, body {
     overflow: hidden; 
     display: flex;
     justify-content: center; 
+    align-items: center;
     font-family: 'Courier Prime', monospace;
     transition: background-color 0.3s, color 0.3s;
 }
@@ -36,12 +37,13 @@ a:hover {
 }
 
 .container {
-    min-width: 400px;
+    max-height: 1200px;
     max-width: 900px;    
     padding: 150px;
     color: black;
     background-color: white;
     transition: background-color 0.3s, color 0.3s; 
+    min-height: 100%;
 }
 
 .container.dark-mode {
@@ -95,4 +97,11 @@ a:hover {
 
 .container.dark-mode .dark-mode-toggle i.fa-sun {
     color: white;
+}
+
+@media (max-width: 400px), (max-height: 1200px) {
+    html, body {
+        overflow: auto; 
+        height: auto;
+    }
 }
