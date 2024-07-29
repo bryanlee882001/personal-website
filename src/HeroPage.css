@@ -106,26 +106,26 @@ a:hover {
 @media (max-width: 600px) {
     .container {
         margin-top: 75px;
-        padding: 35px;
+        padding: 50px;
     }
 
     .dark-mode-toggle {
-        margin-bottom: 30px;
+        margin-bottom: 50px;
     }
 
     h1 {
-        font-size: 20px; 
+        font-size: 15px; 
     }
 
     h2 {
-        font-size: 14px; 
+        font-size: 13px; 
     }
 
     p {
-        font-size: 12px; 
+        font-size: 11px; 
     }
 
     .links_container a {
-        font-size: 12px; 
+        font-size: 11px; 
     }
 }
