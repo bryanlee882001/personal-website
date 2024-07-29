@@ -114,11 +114,11 @@ a:hover {
     }
 
     h1 {
-        font-size: 14px; 
+        font-size: 12px; 
     }
 
     h2 {
-        font-size: 12px; 
+        font-size: 11px; 
     }
 
     p {
@@ -126,6 +126,6 @@ a:hover {
     }
 
     .links_container a {
-        font-size: 10px; 
+        margin-right: 10px;
     }
 }
