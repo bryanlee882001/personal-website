@@ -115,10 +115,13 @@ a:hover {
 
     h1 {
         font-size: 12px; 
+        line-height: 0.8;
+        margin-bottom: 10px;
     }
 
     h2 {
         font-size: 11px; 
+        line-height: 0.8;
     }
 
     p {
