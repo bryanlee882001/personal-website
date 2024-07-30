@@ -103,10 +103,10 @@ a:hover {
 
 
 /* For Mobile App */
-@media (max-width: 600px) {
+@media (max-width: 480px) {
     .container {
         margin-top: 75px;
-        padding: 55px;
+        padding: 50px;
     }
 
     .dark-mode-toggle {
