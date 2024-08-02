@@ -21,7 +21,7 @@ const HeroPage = () => {
 
       {/* Title and Role */}
       <div className="title_container">
-        <h1>Hi,I'm Bryan.</h1><br/>
+        <h1>Hi,I'm Bryan.</h1>
         <h2>
           <TypeAnimation
             sequence={[
