@@ -30,9 +30,7 @@ const HeroPage = () => {
               "Software Engineer",
               1000,
               "Solution Analyst",
-              1000,
-              "CS @ University of Minnesota",
-              1000,
+              1000
             ]}
             speed={50}
             repeat={Infinity}
