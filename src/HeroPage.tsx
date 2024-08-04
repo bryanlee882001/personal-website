@@ -57,7 +57,7 @@ const HeroPage = () => {
         <br/><br/>
 
         <p>Concurrently, I contribute to research at the University of Minnesota, where I lead the development 
-        of  <a href="https://github.com/bryanlee882001/AIMSES" target="blank">AIMSES</a> for real-time statistical computation of collected 
+        of the <a href="https://github.com/bryanlee882001/AIMSES" target="blank">Auroral Ionospheric Magnetospheric Statistical Electron Spectra (AIMSES)</a> project for real-time statistical computation of collected 
         spectral data from <a href="https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1996-049A" target="blank">NASA's FAST satellite</a> @ 
         the <a href="https://cse.umn.edu/physics" target="blank">School of Physics & Astronomy</a>, 
         as well as assisting in the development of ECG compression algorithms and data tools for cardiac monitoring @ <a href="https://dcsg.cs.umn.edu/" target="blank">Distributed Computing Systems Group</a>.</p>
@@ -66,7 +66,7 @@ const HeroPage = () => {
 
         <p>I've previously worked as a Solution Analyst @ <a href="https://www.genustechnologies.com/" target="blank">Genus Technologies</a> and
          a Software Development Engineer Intern @ <a href="https://www.keysight.com/us/en/home.html" target="blank">Keysight Technologies</a> where
-         I collaborated with interdiscplinary teams to drive impactful solutions and deliver results. 
+         I collaborated with interdiscplinary teams to develop and enhance software solutions which drives impactful results. 
         </p>
 
         <br/><br/>
