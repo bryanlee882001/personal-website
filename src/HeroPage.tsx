@@ -30,6 +30,8 @@ const HeroPage = () => {
               "Software Engineer",
               1000,
               "Solution Analyst",
+              1000,
+              "CS @ UMN",
               1000
             ]}
             speed={50}
