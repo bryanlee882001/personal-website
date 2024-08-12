@@ -14,9 +14,14 @@ const HeroPage = () => {
   return (
     <div className={`container ${darkMode ? 'dark-mode' : ''}`}>
 
-      {/* Night Mode Button */}
-      <div className="dark-mode-toggle" onClick={toggleDarkMode}>
-        <i className={`fas ${darkMode ? 'fa-sun' : 'fa-moon'}`}></i>
+      {/* Dark Mode Button */}
+      <div className="dark-mode-toggle-container">
+        <div className="dark-mode-toggle" onClick={toggleDarkMode}>
+          <i className={`fas ${darkMode ? 'fa-sun' : 'fa-moon'}`}></i>
+        </div>
+        <a href="https://csci-4611-spring-2024.github.io/assignment-1-lee03627/" target="_blank" rel="noopener noreferrer" className="game-pad-toggle">
+          <i className="fas fa-gamepad icon"></i>
+        </a>
       </div>
 
       {/* Title and Role */}
@@ -71,6 +76,10 @@ const HeroPage = () => {
 
         <br/><br/>
       </div>
+
+      <div id='stars'></div>
+      <div id='stars2'></div>
+      <div id='stars3'></div>
     </div>
   );
 };
