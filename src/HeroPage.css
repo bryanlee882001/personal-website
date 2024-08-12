@@ -119,6 +119,10 @@ a:hover {
     color: white;
 }
 
+.container.dark-mode .game-pad-toggle i.fa-gamepad {
+    color: white;
+}
+
 #stars, #stars2, #stars3 {
     position: absolute;
     top: 0;
@@ -219,6 +223,10 @@ a:hover {
 
     .links_container a {
         margin-right: 10px;
+    }
+
+    .game-pad-toggle {
+        margin-top: 10px;
     }
 }
 
