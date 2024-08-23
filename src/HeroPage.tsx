@@ -62,7 +62,7 @@ const HeroPage = () => {
         <br/><br/>
 
         <p>Concurrently, I contribute to research at the University of Minnesota, where I lead the development 
-        of the <a href="https://github.com/bryanlee882001/AIMSES" target="blank">Auroral Ionospheric Magnetospheric Statistical Electron Spectra (AIMSES)</a> project for real-time statistical computation of collected 
+        of the <a href="https://github.com/bryanlee882001/AIMSES" target="blank">Auroral Ionospheric Magnetospheric Statistical Electron Spectra (AIMSES)</a> project for the statistical computation of  
         spectral data from <a href="https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1996-049A" target="blank">NASA's FAST satellite</a> @ 
         the <a href="https://cse.umn.edu/physics" target="blank">School of Physics & Astronomy</a>, 
         as well as assisting in the development of Electrocardiogram (ECG) compression algorithms and data tools for cardiac monitoring @ <a href="https://dcsg.cs.umn.edu/" target="blank">Distributed Computing Systems Group</a>.</p>
@@ -76,7 +76,8 @@ const HeroPage = () => {
 
         <br/><br/>
       </div>
-
+      
+      {/* Dark Mode Background */}
       <div id='stars'></div>
       <div id='stars2'></div>
       <div id='stars3'></div>
