@@ -56,7 +56,7 @@ const HeroPage = () => {
       {/* Introduction */}
       <div className="description_container">
         <p>Based in Minneapolis, MN. I'm currently a Data Engineer Intern @ <a href="https://www.bfcsoftware.com/" target="blank">BFC Software </a>
-        where I build & optimize data pipelines to scale with the growing data infrastructure. I am particularly interested in distributed
+        where I build & optimize data pipelines to scale with the growing needs of our data infrastructure. I am particularly interested in Distributed
         computing and Big data processing/analytics.</p>
 
         <br/><br/>
